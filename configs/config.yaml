@@ -1,0 +1,9 @@
+GPU_NUM: "0"
+
+mode: "cls" # "cls", "all"
+
+litmodel: "base" # "base", "weighted"
+model: "shallowconvnet"
+score: null # "pbs"
+pruning_ratio: null
+weighted_loss: False

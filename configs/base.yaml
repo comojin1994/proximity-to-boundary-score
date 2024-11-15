@@ -1,0 +1,10 @@
+DB_PATH: "/opt/workspace/proximity-to-boundary-score/databases"
+CKPT_PATH: "/opt/workspace/proximity-to-boundary-score"
+SCORE_PATH: "/opt/workspace/proximity-to-boundary-score/scores"
+
+dataset: "bcic2a"
+
+EPOCHS: 300
+batch_size: 64
+
+SEED: 42

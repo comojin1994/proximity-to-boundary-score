@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  torch-train:
+    container_name: torch-train
+    platform: linux/amd64
+    build:
+      dockerfile: py311-torch-train.Dockerfile
+    working_dir: /opt/workspace
+    runtime: nvidia
+    ipc: host
+    volumes:
+      - ${PWD}/../..:/opt/workspace

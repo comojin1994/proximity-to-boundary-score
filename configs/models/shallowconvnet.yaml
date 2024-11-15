@@ -1,0 +1,9 @@
+bcic2a:
+  lr: 0.002
+
+  D: 24
+  pooling_size: 0.3
+  hop_size: 0.7
+
+  output_dim: 1032
+  weight_decay: 0.075

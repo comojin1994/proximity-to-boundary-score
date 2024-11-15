@@ -1,0 +1,7 @@
+bcic2a:
+  lr: 0.002
+
+  D: 25
+
+  output_dim: 11600
+  weight_decay: 0.075
