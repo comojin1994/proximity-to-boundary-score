@@ -68,10 +68,10 @@ SAVE_PATH = {Revised dataset directory}
     <th class="tg-nrix" colspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">BCIC2b</span></th>
   </tr>
   <tr>
-    <th class="tg-9wq8"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">EEGNet</span></th>
+    <th class="tg-9wq8"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">    EEGNet   </span></th>
     <th class="tg-9wq8"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">DeepConvNet</span></th>
     <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">ShallowConvNet</span></th>
-    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">EEGNet</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">    EEGNet   </span></th>
     <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">DeepConvNet</span></th>
     <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">ShallowConvNet</span></th>
   </tr></thead>
