@@ -5,3 +5,11 @@ bcic2a:
 
   output_dim: 11600
   weight_decay: 0.075
+
+bcic2b:
+  lr: 0.002
+
+  D: 25
+
+  output_dim: 11600
+  weight_decay: 0.075

@@ -5,5 +5,5 @@ mode: "cls" # "cls", "all"
 litmodel: "base" # "base", "weighted"
 model: "shallowconvnet"
 score: null # "pbs"
-pruning_ratio: null
+pruning_ratio: null # Only used when using hard rejection
 weighted_loss: False

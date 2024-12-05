@@ -1,6 +1,7 @@
 from models.backbones.eegnet import EEGNet
 from models.backbones.deepconvnet import DeepConvNet
 from models.backbones.shallowconvnet import ShallowConvNet
+from models.backbones.dfformer import DFformer
 from models.litmodels.litmodellinear import LitModelLinear, LitModelWeightedLinear
 from easydict import EasyDict
 
@@ -8,6 +9,7 @@ backbone_dict = {
     "eegnet": EEGNet,
     "deepconvnet": DeepConvNet,
     "shallowconvnet": ShallowConvNet,
+    "dfformer": DFformer,
 }
 
 litmodel_dict = {

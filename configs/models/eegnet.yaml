@@ -7,3 +7,13 @@ bcic2a:
 
   output_dim: 144
   weight_decay: 0.075
+
+bcic2b:
+  lr: 0.002
+
+  F1: 8
+  F2: 16
+  D: 2
+
+  output_dim: 144
+  weight_decay: 0.075

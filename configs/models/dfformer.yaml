@@ -1,0 +1,16 @@
+sleepedf:
+  lr: 0.0003
+
+  dim: &sleepedf_dim 64
+  nhead: 4
+  nlayer: 2
+
+  batch_size: 16
+  weight_decay: 0.075
+
+  cnn_layers:
+    [
+      [1, *sleepedf_dim, 125, 1],
+      [*sleepedf_dim, *sleepedf_dim, 8, 4],
+      [*sleepedf_dim, *sleepedf_dim, 4, 2],
+    ]

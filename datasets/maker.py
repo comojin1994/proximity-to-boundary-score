@@ -1,4 +1,6 @@
 from datasets.datasets.bcic2a import BCIC2a
+from datasets.datasets.bcic2b import BCIC2b
+from datasets.datasets.sleepedf import SleepEDF
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from typing import Optional
@@ -6,6 +8,8 @@ import datasets.eeg_transforms as e_transforms
 
 dataset_dict = {
     "bcic2a": BCIC2a,
+    "bcic2b": BCIC2b,
+    "sleepedf": SleepEDF,
 }
 
 

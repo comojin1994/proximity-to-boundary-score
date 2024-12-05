@@ -1,0 +1,6 @@
+num_classes: 4
+num_channels: 3
+num_subjects: 9
+num_workers: 0
+sfreq: 250
+origin_ival: [0, 1000] # DFformer
